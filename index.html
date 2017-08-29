@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Anita's Kitchen</title>
+</head>
+
+<body>
+  <div class="container-fluids">
+    <div class="landing">
+      <div class="main-logo">
+        <img src="assets/logoBig.png" alt="logoBig">
+        <h2>We Provide The Best Food at The Right Price</h2>
+      </div>
+    </div>
+  </div>
+  <div class="Meals">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="happy-hour">
+          <p>Happy Hour</p>
+          <!-- <h2>Happy Hour</h2> -->
+        </div>
+        <div class="party-time">
+          <p>Party Time</p>
+          <!-- <h2>Party Time</h2> -->
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="breakfast">
+          <p>BreakFast</p>
+          <!-- <h2>BreakFast</h2> -->
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="lunch">
+          <p>Lunch</p>
+          <!-- <h2>Lunch</h2> -->
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="dinner">
+          <p>Dinner</p>
+          <!-- <h2>Dinner</h2> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fast Food Section -->
+  <div class="fastFoods">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="fastFood-pic">
+          <div class="well">
+            <img class="img-responsive" src="assets/fastFood1.jpg" alt="fastfood1">
+            <img class="img-responsive" src="assets/fastFood2.jpg" alt="fastfood2">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="fastFood">
+          <h3>Fast Food</h3>
+          <h4>You'll love our delicious fast food</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Drinks Section -->
+  <div class="Drinks">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="drinks">
+          <h2>Drinks</h2>
+          <h3>We also produce delicious drinks.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="drinks-pic">
+          <div class="well">
+            <img src="assets/drink1.jpg" alt="drink1"><img src="assets/drink2.jpg" alt="drink2">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="meals">
+    <div class="well">
+      <!-- Nav Tabs -->
+      <ul class="nav nav-tabs nav-justified" role="tablist">
+        <li role="presentation" class="active"><a href="#fastFoodMenu" aria-controls="fastFoodMenu" role="tab" data-toggle="tab">Fast Food</a></li>
+        <li role="presentation"><a href="#drinksMenu" aria-controls="drinksMenu" role="tab" data-toggle="tab">Drinks</a></li>
+        <li role="presentation"><a href="#chickenMenu" aria-controls="chickenMenu" role="tab" data-toggle="tab">Chicken</a></li>
+        <li role="presentation"><a href="#riceMenu" aria-controls="riceMenu" role="tab" data-toggle="tab">Rice</a></li>
+      </ul>
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in active" id="fastFoodMenu">
+          <div id="carousel1" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="col-md-4">
+                  <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger">
+                </div>
+                <div class="col-md-4">
+                  <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+                </div>
+                <div class="col-md-4">
+                  <img src="assets/fastfood/beefBurger.jpg" alt="Beef Pizza">
+                </div>
+              </div>
+              <div class="item">
+                <div class="col-md-4">
+                  <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger">
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Drinks wrapper -->
+        <div class="tab-pane fade" id="drinksMenu">
+          <div id="carousel1" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="col-md-4">
+                  <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger">
+                </div>
+                <div class="col-md-4">
+                  <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+                </div>
+                <div class="col-md-4">
+                  <img src="assets/fastfood/beefBurger.jpg" alt="Beef Pizza">
+                </div>
+              </div>
+              <div class="item">
+                <div class="col-md-4">
+                  <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger">
+                </div>
+              </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+          </div>
+        </div>
+        <!-- Chicken Wrapper -->
+        <div class="tab-pane fade" id="chickenMenu">
+          <div id="carousel1" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="col-md-4">
+                  <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger">
+                </div>
+                <div class="col-md-4">
+                  <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+                </div>
+                <div class="col-md-4">
+                  <img src="assets/fastfood/beefBurger.jpg" alt="Beef Pizza">
+                </div>
+              </div>
+              <div class="item">
+                <div class="col-md-4">
+                  <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger">
+                </div>
+              </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+          </div>
+        </div>
+        <!-- Rice Wrapper -->
+        <div class="tab-pane fade" id="riceMenu">
+          <div id="carousel1" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="col-md-4">
+                  <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger">
+                </div>
+                <div class="col-md-4">
+                  <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+                </div>
+                <div class="col-md-4">
+                  <img src="assets/fastfood/beefBurger.jpg" alt="Beef Pizza">
+                </div>
+              </div>
+              <div class="item">
+                <div class="col-md-4">
+                  <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger">
+                </div>
+              </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

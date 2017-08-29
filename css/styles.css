@@ -1,0 +1,155 @@
+.landing {
+  background-image: url(../assets/backgrounds/landing.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 10%;
+  padding-bottom: 8%;
+}
+
+.main-logo {
+  text-align: center;
+}
+
+
+/*.Meals {
+  color: white;
+  text-align: center;
+}*/
+
+.col-md-3 {
+  padding-left: 0%;
+  padding-right: 0%;
+  margin: auto;
+}
+
+.happy-hour {
+  color: black;
+  padding-top: 5%;
+  padding-bottom: 7%;
+  text-align: center;
+  background-size: 100%;
+  font-size: 37px;
+}
+
+.party-time {
+  background-color: #F15A29;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: white;
+  text-align: center;
+  background-size: 100%;
+  font-size: 38px;
+}
+
+.breakfast {
+  background-image: url(../assets/foodtop/breakfast.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 20%;
+  padding-bottom: 18.5%;
+  text-align: center;
+  font-size: 37px;
+}
+
+.breakfast: hover {
+  opacity: 0.5;
+  color: #F15A29;
+}
+
+.lunch {
+  background-image: url(../assets/foodtop/lunch.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 20%;
+  padding-bottom: 18.5%;
+  text-align: center;
+  font-size: 37px;
+}
+
+.dinner {
+  background-image: url(../assets/foodtop/dinner.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 20%;
+  padding-bottom: 18.5%;
+  text-align: center;
+  font-size: 37px;
+}
+
+.col-md-6 {
+  padding-left: 0%;
+  padding-right: 5%;
+  margin-top: 5%;
+  width: 50%;
+}
+
+.col-md-6 .fastFood-pic .well {
+  background-color: white;
+  float: right;
+  border-radius: 0;
+  box-shadow: 0 0 10px;
+  margin-right: 1%
+}
+
+.fastFood {
+  float: left;
+  margin-left: 4%;
+  width: 65%;
+}
+
+.drinks {
+  float: right;
+  margin-left: 1%;
+  width: 65%;
+}
+
+.col-md-6 .drinks-pic .well {
+  background-color: white;
+  float: left;
+  border-radius: 0;
+  box-shadow: 0 0 10px;
+  margin-left: 0.5%;
+}
+
+.menuItems {
+  margin-top: 5%;
+}
+
+.menuItems .well {
+  background-color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.meals {
+  background-image: url("../assets/backgrounds/foodsBg.jpg");
+  background-size: 100% 100%;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  margin-top: 100px;
+  margin-left: -8%;
+  margin-right: -8%;
+  height: 100%;
+}
+
+.meals .well {
+  background-color: white;
+  width: 60%;
+  height: 70%;
+  text-align: center;
+  margin: auto;
+  border-radius: 0;
+  padding: 0px;
+}
+
+.item img {
+  width: 100%;
+}
